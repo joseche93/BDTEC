@@ -1,0 +1,42 @@
+.titulo{
+	text-decoration: underline;
+	color: #59596D;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+.panel{
+	color: white;
+	padding-bottom: 6em;
+	vertical-align: center;
+	text-decoration: none;
+	width: 100%;
+	margin-top: 3em;
+	margin-bottom: 5em;
+}
+
+
+	.pa1:hover{
+
+	background: #155AD7 !important;
+	box-shadow: 2px 2px 2px 2px #686868;
+	}
+
+	.pa2:hover{
+
+	background: #1BE3BA !important;
+	box-shadow: 2px 2px 2px 2px #686868;
+	}
+
+	.pa3:hover{
+
+	background: #FFE40A !important;
+	box-shadow: 2px 2px 2px 2px #686868;
+	}
+
+.texto{
+	color: white;
+	padding-left: 3em !important;
+	padding-right: 3em !important;
+}
+
