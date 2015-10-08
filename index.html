@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="lib/materialize/dist/css/materialize.min.css">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<title>Materia: BD distribuidas y noSQL</title>
 </head>
@@ -11,47 +12,89 @@
 		<h1 align="center" class="titulo col s12">Tareas Para Materia de BD distribuidas y noSQL</h1>
 	</header>
 	<main class='row'>
-		<a href='#bdf'class='offset-s1 col s3 card-panel blue darken-3 panel pa1'>
-			<h3 align="center">Que es una base de datos federada?</h3>
+		<a href='#tarea1'class='offset-s1 col s4 card-panel blue darken-3 panel pa1'>
+			<h3 align="center">Tarea #1</h3>
 		</a >
-		<a href='#mdbs' class='offset-s1 col s3 card-panel teal accent-4 panel pa2'>
-			<h3 align="center">Que es un multidatabase system?</h3>
+		<a href='#tarea2' class='offset-s2 col s4 card-panel blue darken-3 panel pa1'>
+			<h3 align="center">Tarea #2</h3>
 		</a >
-		<a href='#l1l2ece' class='offset-s1 col s2 card-panel yellow accent-3 panel pa3'>
-			<h3 align="center">lecturas (Coment.)</h3>
-		</a >
-		<section id="bdf" class="blue darken-3 col s12 texto">
-			<h2 align="center">Base de datos Federada</h2>
-			<p align="justify" >
-				El avance espectacular de las comunicaciones y la creciente necesidad de cooperar con otras  entidades independientes, obligan a replantear  los conceptos fundamentales de las bases de  datos, dirigiéndose  de forma directa a la reciente tendencia de crear software para tener acceso  a varias bases de datos autónomas preexistentes almacenadas en SGBD heterogéneos.<br><br>
+		<main>
+			<section id="tarea1" class="row container">
+				<h1 class="texto">Tarea #1</h1>
+				<ul class="collapsible col s12" data-collapsible="accordion">
+				    <li>
+				      	<div class="collapsible-header text-sel"><i class="mdi-social-public"></i>Qué es una base de datos federada?</div>
+				      	<div class="collapsible-body">
+					      	<p align="justify" class="col s12">
+								El avance espectacular de las comunicaciones y la creciente necesidad de cooperar con otras  entidades independientes, obligan a replantear  los conceptos fundamentales de las bases de  datos, dirigiéndose  de forma directa a la reciente tendencia de crear software para tener acceso  a varias bases de datos autónomas preexistentes almacenadas en SGBD heterogéneos.<br><br>
 
-				Pero el acceso a varias bases de datos como si de una sola se tratara viene acompañado de problemas como la integración, seguridad, control, etc. Para poner solución a estos problemas y ofrecer un adecuado acceso a varias bases de datos se han desarrollado nuevos esquemas como los Sistemas Gestores de Bases de Datos Federadas (SGBDF).<br><br>
+								Pero el acceso a varias bases de datos como si de una sola se tratara viene acompañado de problemas como la integración, seguridad, control, etc. Para poner solución a estos problemas y ofrecer un adecuado acceso a varias bases de datos se han desarrollado nuevos esquemas como los Sistemas Gestores de Bases de Datos Federadas (SGBDF).<br><br>
 
-				Un sistema de bases de datos federadas es una colección de sistemas de bases de datos cooperativos y autónomos. En un sistema federado los usuarios tienen acceso a los datos, de los distintos sistemas, a través de una interfaz común sin embargo, no existe un esquema global que describa a todos los datos de las distintas bases de datos, en su lugar hay varios esquemas unificados, cada uno describiendo porciones de bases de datos y archivos para el uso de cierta clase de usuarios.<br><br>
+								Un sistema de bases de datos federadas es una colección de sistemas de bases de datos cooperativos y autónomos. En un sistema federado los usuarios tienen acceso a los datos, de los distintos sistemas, a través de una interfaz común sin embargo, no existe un esquema global que describa a todos los datos de las distintas bases de datos, en su lugar hay varios esquemas unificados, cada uno describiendo porciones de bases de datos y archivos para el uso de cierta clase de usuarios.<br><br>
 
-				Las bases de datos federadas son vistas unificadas de bases de datos independientes aparentan ser una sola base de datos, pero son una colección de sistemas de bases de datos independientes, cooperativos, heterogéneos, que son autónomos y que permiten compartir todos o algunos de sus datos. Una BDF aparenta ser una BD normal y corriente, pero no tiene existencia física, es una vista lógica.
-			</p>
-		</section>
-		<section id='mdbs' class="teal accent-4 col s12 texto">
-			<h2 align="center">Multidatabase System</h2>
-			<p align="justify" >
-				Un sistema multibase de datos (SMulBD) soporta operaciones en múltiples sistemas de base de datos componentes (SBDC). Cada SBDC es manejado por un sistema manejador de base de datos (SMBD). Un SBDC en un SMulBD puede ser centralizado o distribuido y puede residir en la misma computadora o en múltiples computadoras conectadas por un subsistema de comunicación. Un SMulBD es llamado homogéneo si todos los SMBD componentes son iguales; si son diferentes entonces es llamado un SMulBD heterogéneo.<br><br>
+								Las bases de datos federadas son vistas unificadas de bases de datos independientes aparentan ser una sola base de datos, pero son una colección de sistemas de bases de datos independientes, cooperativos, heterogéneos, que son autónomos y que permiten compartir todos o algunos de sus datos. Una BDF aparenta ser una BD normal y corriente, pero no tiene existencia física, es una vista lógica.
+							</p>
+						</div>
+				    </li>
+				    <li>
+				      	<div class="collapsible-header text-sel"><i class="mdi-action-subject"></i>Qué es un sistema multidatabase?</div>
+				      	<div class="collapsible-body">
+					      	<p align="justify" class="col s12">
+					      		Un sistema multibase de datos (SMulBD) soporta operaciones en múltiples sistemas de base de datos componentes (SBDC). Cada SBDC es manejado por un sistema manejador de base de datos (SMBD). Un SBDC en un SMulBD puede ser centralizado o distribuido y puede residir en la misma computadora o en múltiples computadoras conectadas por un subsistema de comunicación. Un SMulBD es llamado homogéneo si todos los SMBD componentes son iguales; si son diferentes entonces es llamado un SMulBD heterogéneo.<br><br>
 
-				Un SMulBD puede ser clasificado en dos tipos basados en la autonomía de la SBDCs: sistemas de base de datos no-federada y sistemas de base de datos federada.
-			</p>
-		</section>
-		<section id='l1l2ece' class="yellow accent-3 col s12 texto">
-			<h2 align="center">Comentarios de lecturas: Cap 1, 2 y El ECE en México</h2>
-			<p align="justify" >
-				En cuanto a las lecturas de los capitulos solo me queda preguntar si vamos a
-				realizar prácticas en la materia que contemplen temas de lo que se hablan allí, 
-				ya que por ejemplo en el caso de una base de datos en la nube es pago, asi que
-				me gustaría saber si la materia va mas enfocada a la teoría. <br><br>
+								Un SMulBD puede ser clasificado en dos tipos basados en la autonomía de la SBDCs: sistemas de base de datos no-federada y sistemas de base de datos federada.
+					      	</p>
+				      	</div>
+				    </li>
+				    <li>
+				      	<div class="collapsible-header text-sel"><i class="mdi-action-visibility"></i>Comentarios de lecturas: Cap 1, 2 y El ECE en México</div>
+				      	<div class="collapsible-body">
+					      	<p>					
+								realizar prácticas en la materia que contemplen temas de lo que se hablan allí, 
+								ya que por ejemplo en el caso de una base de datos en la nube es pago, asi que
+								me gustaría saber si la materia va mas enfocada a la teoría. 
+								<br><br>
 
-				En cuanto al artículo del ECE en México, me parece un excelente sistema que puede atacar varias problematicas como el caso que menciono de la notaría, dicho eso, resulta necesario definir un alcance del proyecto de la notaria que es para el final del curso, es decir, tomando en cuenta el contenido y el tiempo que hay para realizarlo seria muy positivo definir mejor los requerimientos que tendrá dicho proyecto. 
-			</p>
-		</section>
+								En cuanto al artículo del ECE en México, me parece un excelente sistema que puede atacar varias problematicas como el caso que menciono de la notaría, dicho eso, resulta necesario definir un alcance del proyecto de la notaria que es para el final del curso, es decir, tomando en cuenta el contenido y el tiempo que hay para realizarlo seria muy positivo definir mejor los requerimientos que tendrá dicho proyecto. 
+					      	</p>
+				      	</div>
+				    </li>
+			 	</ul>
+			</section>
+			<section id="tarea2" class="row container">
+				<h1 class="texto">Tarea #2</h1>
+				<ul class="collapsible col s12" data-collapsible="accordion">
+				    <li>
+				      	<div class="collapsible-header text-sel"><i class="mdi-device-data-usage"></i>Cluster Databases</div>
+				      	<div class="collapsible-body">
+					      	<p align="justify" class="col s12">
+								Clustering, en el contexto de las bases de datos, se refiere a la capacidad de varios servidores o instancias para conectarse a una sola base de datos. Una instancia es la colección de memoria y los procesos que interactúan con una base de datos
+								
+								Clustering ofrece dos ventajas importantes, especialmente en entornos de bases de datos de gran volumen:<br><br>
 
-	</main>
+								La tolerancia a fallos: esto implica que hay más de un servidor o instancia para que los usuarios se conecten, es decir, la agrupación ofrece una alternativa en caso de fallo de un servidor individual. <br><br>
+								El balanceo de carga: la característica de clustering generalmente permite que los usuarios sean asignados automáticamente al servidor con la menor carga.
+							</p>
+						</div>
+				    </li>
+				    <li>
+				      	<div class="collapsible-header text-sel"><i class="mdi-action-settings"></i>SAP HANA distribuited in memory database system:
+						Transaction, session, and metadata management.
+				      	</div>
+				      	<div class="collapsible-body">
+					      	<p align="justify" class="col s12">
+					      		La base de datos SAP HANA es el componente central de la hoja de ruta de SAP HANA para apoyar de manera eficiente todos los procesos de negocio de SAP y no SAP desde una perspectiva de gestión de datos. En frente a la arquitectura tradicional de un sistema de base de datos, la base de datos SAP HANA tiene un enfoque diferente para proporcionar soporte para una amplia gama de tareas de gestión de datos. Por ejemplo, el sistema está organizado de una manera centrada en la memoria principal para reflejar el cambio dentro de la jerarquía de memoria y para proporcionar un alto rendimiento y sin ninguna interacción de disco lentos. <br><br>
+
+					      		El enfoque centrado en la memoria principal, por tanto, pone al revés la clásica arquitectura de paradigma : Mientras que los sistemas centrados en disco tradicionales tratan de adivinar los datos calientes para ser almacenado en caché en la memoria principal, los valores por defecto de aproximación SAP HANA pueden tener todo en la memoria principal. <br><br>
+
+					      		Además del rendimiento, la base de datos SAP HANA también apunta a apoyar los procesos de negocio desde una perspectiva holística. Por ejemplo, el sistema puede contener documentos de texto de los productos dentro de un orden, junto con información estructurada del cliente y la información espacial de la ruta de entrega actual. Por último, SAP HANA está posicionado para actuar como una plataforma de consolidación para muchos casos de uso diferentes, desde una perspectiva de la aplicación y desde una perspectiva de gestión de datos.
+					      	</p>
+				      	</div>
+				    </li>
+			 	</ul>
+			</section>
+		</main>
+	<script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/materialize/dist/js/materialize.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 .titulo{
 	text-decoration: underline;
-	color: #59596D;
+	color: #191919;
 	margin-left: 5em;
 	margin-right: 5em;
 }
@@ -18,8 +18,7 @@
 
 	.pa1:hover{
 
-	background: #155AD7 !important;
-	box-shadow: 2px 2px 2px 2px #686868;
+	box-shadow: 1.9px 1.9px 1.9px 1.9px #5B5B5B;
 	}
 
 	.pa2:hover{
@@ -35,8 +34,10 @@
 	}
 
 .texto{
-	color: white;
-	padding-left: 3em !important;
-	padding-right: 3em !important;
+	color: #144EB2;
+	text-decoration: underline;
 }
 
+.text-sel:hover{
+	color: #316DA2;
+}
